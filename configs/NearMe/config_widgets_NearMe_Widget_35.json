@@ -1,0 +1,1157 @@
+{
+  "fontColor": "#23aa70",
+  "highlightColor": "#00ffff",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Wetlands/FeatureServer/0",
+      "geometryType": "esriGeometryPolygon",
+      "id": "Georgian_Bay_Wetlands_6066",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Wetlands/FeatureServer/",
+      "isMapServer": false,
+      "title": "Georgian Bay Wetlands",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Wetlands in Georgian Bay Township",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_CODE",
+            "label": "canvec:CODE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "canvec_UUID",
+            "label": "canvec:UUID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural",
+            "label": "natural",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "type",
+            "label": "type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "A {NATURAL} in Georgian Bay Township<span style='color: rgb(76, 76, 76);'> </span><br />Source: {SOURCE}<br />Attribution: {ATTRIBUTION}",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "uniqueValue",
+        "field1": "natural",
+        "uniqueValueInfos": [
+          {
+            "value": "wetland",
+            "symbol": {
+              "color": {
+                "r": 153,
+                "g": 204,
+                "b": 0,
+                "a": 1
+              },
+              "outline": {
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "type": "simplelinesymbol",
+                "style": "solid"
+              },
+              "type": "simplefillsymbol",
+              "style": "solid"
+            },
+            "label": "wetland"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Wetlands/FeatureServer/0",
+      "geometryType": "esriGeometryPolygon",
+      "id": "Muskoka_Lakes_Wetlands_2965",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Wetlands/FeatureServer/",
+      "isMapServer": false,
+      "title": "Muskoka Lakes Wetlands",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Wetlands in Muskoka Lakes Township",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_CODE",
+            "label": "canvec:CODE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "canvec_UUID",
+            "label": "canvec:UUID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural",
+            "label": "natural",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "type",
+            "label": "type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "wetland",
+            "label": "wetland",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "A {NATURAL} in Muskoka Lakes Township <br />Source: {SOURCE}<br />Attribution: {ATTRIBUTION}",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "uniqueValue",
+        "field1": "natural",
+        "uniqueValueInfos": [
+          {
+            "value": "wetland",
+            "symbol": {
+              "color": {
+                "r": 153,
+                "g": 204,
+                "b": 0,
+                "a": 1
+              },
+              "outline": {
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "type": "simplelinesymbol",
+                "style": "solid"
+              },
+              "type": "simplefillsymbol",
+              "style": "solid"
+            },
+            "label": "wetland"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Wetlands/FeatureServer/0",
+      "geometryType": "esriGeometryPolygon",
+      "id": "Lake_of_Bays_Wetlands_4672",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Wetlands/FeatureServer/",
+      "isMapServer": false,
+      "title": "Lake of Bays Wetlands",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Wetlands in Lake of Bays Township",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_CODE",
+            "label": "canvec:CODE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "canvec_UUID",
+            "label": "canvec:UUID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural",
+            "label": "natural",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "type",
+            "label": "type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "A {NATURAL} in Lake of Bays Township <br />Source: {SOURCE}<br />Attribution: {ATTRIBUTION}",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "uniqueValue",
+        "field1": "natural",
+        "uniqueValueInfos": [
+          {
+            "value": "wetland",
+            "symbol": {
+              "color": {
+                "r": 153,
+                "g": 204,
+                "b": 0,
+                "a": 1
+              },
+              "outline": {
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "type": "simplelinesymbol",
+                "style": "solid"
+              },
+              "type": "simplefillsymbol",
+              "style": "solid"
+            },
+            "label": "wetland"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Wetlands/FeatureServer/0",
+      "geometryType": "esriGeometryPolygon",
+      "id": "Bracebridge_Wetlands_1381",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Wetlands/FeatureServer/",
+      "isMapServer": false,
+      "title": "Bracebridge Wetlands",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Wetlands in Bracebridge",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_CODE",
+            "label": "canvec:CODE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "canvec_UUID",
+            "label": "canvec:UUID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural",
+            "label": "natural",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "type",
+            "label": "type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "A {NATURAL} in Bracebridge <br />Source: {SOURCE}<br />Attribution: {ATTRIBUTION}",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "uniqueValue",
+        "field1": "natural",
+        "uniqueValueInfos": [
+          {
+            "value": "wetland",
+            "symbol": {
+              "color": {
+                "r": 153,
+                "g": 204,
+                "b": 0,
+                "a": 1
+              },
+              "outline": {
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "type": "simplelinesymbol",
+                "style": "solid"
+              },
+              "type": "simplefillsymbol",
+              "style": "solid"
+            },
+            "label": "wetland"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Wetlands/FeatureServer/0",
+      "geometryType": "esriGeometryPolygon",
+      "id": "Huntsville_Wetlands_9658",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Wetlands/FeatureServer/",
+      "isMapServer": false,
+      "title": "Huntsville Wetlands",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Wetlands in Huntsville",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_CODE",
+            "label": "canvec:CODE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "canvec_UUID",
+            "label": "canvec:UUID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural",
+            "label": "natural",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "type",
+            "label": "type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "A {NATURAL} in Huntsville <br />Source: {SOURCE}<br />Attribution: {ATTRIBUTION}",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "uniqueValue",
+        "field1": "natural",
+        "uniqueValueInfos": [
+          {
+            "value": "wetland",
+            "symbol": {
+              "color": {
+                "r": 153,
+                "g": 204,
+                "b": 0,
+                "a": 1
+              },
+              "outline": {
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "type": "simplelinesymbol",
+                "style": "solid"
+              },
+              "type": "simplefillsymbol",
+              "style": "solid"
+            },
+            "label": "wetland"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Wetlands/FeatureServer/0",
+      "geometryType": "esriGeometryPolygon",
+      "id": "Gravenhurst_Wetlands_960",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Wetlands/FeatureServer/",
+      "isMapServer": false,
+      "title": "Gravenhurst Wetlands",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Wetlands in Gravenhurst",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural",
+            "label": "natural",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "type",
+            "label": "type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_CODE",
+            "label": "canvec:CODE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "canvec_UUID",
+            "label": "canvec:UUID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "wetland",
+            "label": "wetland",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "A {NATURAL} in Gravenhurst<br />Source: {SOURCE}<br />Attribution: {ATTRIBUTION}",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "type": "sizeInfo",
+            "target": "outline",
+            "expression": "view.scale",
+            "valueExpression": "$view.scale",
+            "stops": [
+              {
+                "size": 47.3539376901669,
+                "value": 8954
+              },
+              {
+                "size": 23.67696884508345,
+                "value": 27981
+              },
+              {
+                "size": 11.838484422541725,
+                "value": 111924
+              },
+              {
+                "size": 0,
+                "value": 223849
+              }
+            ]
+          }
+        ],
+        "type": "uniqueValue",
+        "field1": "natural",
+        "uniqueValueInfos": [
+          {
+            "value": "wetland",
+            "symbol": {
+              "color": {
+                "r": 153,
+                "g": 204,
+                "b": 0,
+                "a": 1
+              },
+              "outline": {
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "type": "simplelinesymbol",
+                "style": "solid"
+              },
+              "type": "simplefillsymbol",
+              "style": "solid"
+            },
+            "label": "wetland"
+          }
+        ]
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": true
+  },
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 15,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": false,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Miles",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": false,
+  "isGeodesic": false,
+  "showLocationTool": false,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "https://static.arcgis.com/images/Symbols/Local-Government/Road-Problems-Submitted.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 18.75,
+      "height": 18.75
+    },
+    "polylineSymbol": {
+      "color": [
+        29,
+        241,
+        241,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        0,
+        255,
+        225,
+        128
+      ],
+      "outline": {
+        "color": [
+          115,
+          140,
+          61,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        240,
+        243,
+        154,
+        128
+      ],
+      "outline": {
+        "color": [
+          115,
+          140,
+          61,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "layerId": "Muskoka_Lakes_Roads_7382",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Roads/FeatureServer/0",
+        "name": "Muskoka Lakes Roads",
+        "placeholder": "",
+        "searchFields": [
+          "name"
+        ],
+        "displayField": "name",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "layerId": "Lake_of_Bays_Roads_4472",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Roads/FeatureServer/0",
+        "name": "Lake of Bays Roads",
+        "placeholder": "",
+        "searchFields": [
+          "name"
+        ],
+        "displayField": "name",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "layerId": "Huntsville_Roads_5686",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Roads/FeatureServer/0",
+        "name": "Huntsville Roads",
+        "placeholder": "",
+        "searchFields": [
+          "name"
+        ],
+        "displayField": "name",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "layerId": "Gravenhurst_Roads_1990",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Roads/FeatureServer/0",
+        "name": "Gravenhurst Roads",
+        "placeholder": "",
+        "searchFields": [
+          "name"
+        ],
+        "displayField": "name",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "layerId": "Georgian_Bay_Roads_6772",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Roads/FeatureServer/0",
+        "name": "Georgian Bay Roads",
+        "placeholder": "",
+        "searchFields": [
+          "name"
+        ],
+        "displayField": "name",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "layerId": "Bracebridge_Roads_2904",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Roads/FeatureServer/0",
+        "name": "Bracebridge Roads",
+        "placeholder": "",
+        "searchFields": [
+          "name"
+        ],
+        "displayField": "name",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Find address or place",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [
+    {
+      "layerId": "Bracebridge_Wetlands_1381",
+      "fieldName": "F_id",
+      "fieldValue": "",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 12,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/RedStickpin.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 22.5,
+        "height": 22.5
+      }
+    }
+  ],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "editorDescription": "Search for an address or click on a road to locate it on the map",
+  "noFeatureFoundMessage": "Looks like this road might be far enough away from a wetland.",
+  "showCurrentLocationTool": true,
+  "enableDirection": false,
+  "bufferInputOption": "sliderAndTextbox"
+}

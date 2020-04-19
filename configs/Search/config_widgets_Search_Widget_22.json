@@ -1,0 +1,125 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "Muskoka_Lakes_Roads_7382",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Roads/FeatureServer/0",
+      "name": "Muskoka Lakes Roads",
+      "placeholder": "",
+      "searchFields": [
+        "name"
+      ],
+      "displayField": "name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Lake_of_Bays_Roads_4472",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Roads/FeatureServer/0",
+      "name": "Lake of Bays Roads",
+      "placeholder": "",
+      "searchFields": [
+        "name"
+      ],
+      "displayField": "name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Huntsville_Roads_5686",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Roads/FeatureServer/0",
+      "name": "Huntsville Roads",
+      "placeholder": "",
+      "searchFields": [
+        "name"
+      ],
+      "displayField": "name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Gravenhurst_Roads_1990",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Roads/FeatureServer/0",
+      "name": "Gravenhurst Roads",
+      "placeholder": "",
+      "searchFields": [
+        "name"
+      ],
+      "displayField": "name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Georgian_Bay_Roads_6772",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Roads/FeatureServer/0",
+      "name": "Georgian Bay Roads",
+      "placeholder": "",
+      "searchFields": [
+        "name"
+      ],
+      "displayField": "name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Bracebridge_Roads_2904",
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Roads/FeatureServer/0",
+      "name": "Bracebridge Roads",
+      "placeholder": "",
+      "searchFields": [
+        "name"
+      ],
+      "displayField": "name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "ArcGIS World Geocoding Service",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find address or place",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "radiusUnit": "meter",
+      "type": "locator"
+    }
+  ]
+}

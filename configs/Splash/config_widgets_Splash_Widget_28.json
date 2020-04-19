@@ -1,0 +1,34 @@
+{
+  "splash": {
+    "splashContent": "<div> </div>\n\t<div align=\"center\">\n\t<span style=\"font-weight: bold; color: rgb(144, 238, 144);\">Welcome! This is a great place to find the proximity of roads to a wetland that you may be interested in protecting or monitoring for species at risk in Muskoka. You can click on any wetland in Muskoka and find the road types, speed limits, and road surface types of nearby roads in order to examine whether the species in the wetland are at risk of roadway incidents. Thank you for caring about wetlands in Muskoka!</span></div>",
+    "requireConfirm": false,
+    "confirm": {
+      "text": "",
+      "color": "#ffffff",
+      "transparency": 0
+    },
+    "showOption": true,
+    "confirmEverytime": true,
+    "contentVertical": "top",
+    "size": {
+      "mode": "wh",
+      "wh": {
+        "w": 600,
+        "h": 264
+      }
+    },
+    "background": {
+      "mode": "color",
+      "image": null,
+      "type": "fill",
+      "fileName": "No%20file%20chosen",
+      "color": "#485566",
+      "transparency": 0
+    },
+    "button": {
+      "color": "#518dca",
+      "transparency": 0,
+      "text": "OK"
+    }
+  }
+}

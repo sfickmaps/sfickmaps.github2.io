@@ -1,0 +1,2866 @@
+{
+  "fontColor": "#e72020",
+  "highlightColor": "#00ffff",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Roads/FeatureServer/0",
+      "geometryType": "esriGeometryPolyline",
+      "id": "Bracebridge_Roads_2904",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Roads/FeatureServer/",
+      "isMapServer": false,
+      "title": "Bracebridge Roads",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Bracebridge Roads",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "highway",
+            "label": "highway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes",
+            "label": "lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ref",
+            "label": "ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "surface",
+            "label": "surface",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "sidewalk",
+            "label": "sidewalk",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "maxspeed",
+            "label": "maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "validate_no_name",
+            "label": "validate:no_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_maxspeed",
+            "label": "source:maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bridge",
+            "label": "bridge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "layer",
+            "label": "layer",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "NHS",
+            "label": "NHS",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bicycle",
+            "label": "bicycle",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "foot",
+            "label": "foot",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "oneway",
+            "label": "oneway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "geobase_acquisitionTechnique",
+            "label": "geobase:acquisitionTechnique",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution_name",
+            "label": "attribution_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "statscan_rbuid",
+            "label": "statscan:rbuid",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "alt_name",
+            "label": "alt_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_name",
+            "label": "source:name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lit",
+            "label": "lit",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "smoothness",
+            "label": "smoothness",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes_backward",
+            "label": "lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "lanes_forward",
+            "label": "lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "turn_lanes_backward",
+            "label": "turn:lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "note",
+            "label": "note",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "turn_lanes_forward",
+            "label": "turn:lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "motorroad",
+            "label": "motorroad",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "shoulder_surface",
+            "label": "shoulder:surface",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "access",
+            "label": "access",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lcn",
+            "label": "lcn",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "fixme",
+            "label": "fixme",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "junction",
+            "label": "junction",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_geometry",
+            "label": "source:geometry",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "hgv",
+            "label": "hgv",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "Max Speed Limit: <font color='#ff0000' style=''><b>{MAXSPEED}</b> </font><font color='#000000' style=''>km/h</font><br />Road Name: <i><font color='#000000'><b>{NAME}</b></font></i><br />Road Type: <font color='#000000'><b>{HIGHWAY}</b></font><br />Surface Type:<b> <font color='#000000'>{SURFACE}</font></b> <br /># Lanes:<b> </b><font color='#000000'><b>{LANES}<br /> </b>**</font>Note: If Max Speed Limit is blank look to Road Type - motorway, trunk, primary likely has Max Speed Limit of 90-100 km/h; secondary and tertiary 60-80 km/h; residential 20-60 km/hr; unclassified may need further research. If Road Type is also blank look to Surface Type with speed limits decreasing from paved-asphalt-unpaved.",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "field": "maxspeed",
+            "valueExpression": null,
+            "stops": [
+              {
+                "value": 20,
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 178,
+                  "a": 1
+                },
+                "label": "< 20"
+              },
+              {
+                "value": 40,
+                "color": {
+                  "r": 254,
+                  "g": 204,
+                  "b": 92,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 60,
+                "color": {
+                  "r": 253,
+                  "g": 141,
+                  "b": 60,
+                  "a": 1
+                },
+                "label": "60"
+              },
+              {
+                "value": 80,
+                "color": {
+                  "r": 240,
+                  "g": 59,
+                  "b": 32,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 100,
+                "color": {
+                  "r": 189,
+                  "g": 0,
+                  "b": 38,
+                  "a": 1
+                },
+                "label": "> 100"
+              }
+            ]
+          }
+        ],
+        "authoringInfo": {
+          "visualVariables": [
+            {
+              "type": "colorInfo",
+              "minSliderValue": 20,
+              "maxSliderValue": 100,
+              "theme": "high-to-low"
+            }
+          ]
+        },
+        "type": "classBreaks",
+        "field": "maxspeed",
+        "defaultSymbol": {
+          "color": [
+            92,
+            92,
+            92,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "minValue": -9007199254740991,
+        "classBreakInfos": [
+          {
+            "symbol": {
+              "color": {
+                "r": 170,
+                "g": 170,
+                "b": 170,
+                "a": 1
+              },
+              "width": 2,
+              "type": "simplelinesymbol",
+              "style": "solid"
+            },
+            "classMaxValue": 9007199254740991,
+            "minValue": -9007199254740991,
+            "maxValue": 9007199254740991
+          }
+        ],
+        "defaultLabel": "Other"
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Roads/FeatureServer/0",
+      "geometryType": "esriGeometryPolyline",
+      "id": "Georgian_Bay_Roads_6772",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Roads/FeatureServer/",
+      "isMapServer": false,
+      "title": "Georgian Bay Roads",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Georgian Bay Township Roads",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "highway",
+            "label": "highway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes",
+            "label": "lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "note",
+            "label": "note",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ref",
+            "label": "ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "surface",
+            "label": "surface",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "maxspeed",
+            "label": "maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NHS",
+            "label": "NHS",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "nat_name",
+            "label": "nat_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "nat_name_en",
+            "label": "nat_name:en",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "nat_name_fr",
+            "label": "nat_name:fr",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "old_ref",
+            "label": "old_ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "oneway",
+            "label": "oneway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bridge",
+            "label": "bridge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "layer",
+            "label": "layer",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "created_by",
+            "label": "created_by",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "old_name",
+            "label": "old_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "unsigned_ref",
+            "label": "unsigned_ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "lit",
+            "label": "lit",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution_name",
+            "label": "attribution_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "geobase_acquisitionTechnique",
+            "label": "geobase:acquisitionTechnique",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "sidewalk",
+            "label": "sidewalk",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "statscan_rbuid",
+            "label": "statscan:rbuid",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "fixme",
+            "label": "fixme",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_geometry",
+            "label": "source:geometry",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_name",
+            "label": "source:name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "validate_no_name",
+            "label": "validate:no_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "alt_name",
+            "label": "alt_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "Max Speed Limit: <font color='#ff0000'><b>{MAXSPEED}</b> </font><font color='#000000'>km/h</font><br />Road Name: <i><font color='#000000'><b>{NAME}</b></font></i><br />Road Type: <font color='#000000'><b>{HIGHWAY}</b></font><br />Surface Type:<b> <font color='#000000'>{SURFACE}</font></b> <br /># Lanes:<b> </b><font color='#000000'><b>{LANES}<br /> </b>**</font>Note: If Max Speed Limit is blank look to Road Type - motorway, trunk, primary likely has Max Speed Limit of 90-100 km/h; secondary and tertiary 60-80 km/h; residential 20-60 km/hr; unclassified may need further research. If Road Type is also blank look to Surface Type with speed limits decreasing from paved-asphalt-unpaved.",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "field": "maxspeed",
+            "valueExpression": null,
+            "stops": [
+              {
+                "value": 20,
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 178,
+                  "a": 1
+                },
+                "label": "< 20"
+              },
+              {
+                "value": 40,
+                "color": {
+                  "r": 254,
+                  "g": 204,
+                  "b": 92,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 60,
+                "color": {
+                  "r": 253,
+                  "g": 141,
+                  "b": 60,
+                  "a": 1
+                },
+                "label": "60"
+              },
+              {
+                "value": 80,
+                "color": {
+                  "r": 240,
+                  "g": 59,
+                  "b": 32,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 100,
+                "color": {
+                  "r": 189,
+                  "g": 0,
+                  "b": 38,
+                  "a": 1
+                },
+                "label": "> 100"
+              }
+            ]
+          }
+        ],
+        "authoringInfo": {
+          "visualVariables": [
+            {
+              "type": "colorInfo",
+              "minSliderValue": 20,
+              "maxSliderValue": 100,
+              "theme": "high-to-low"
+            }
+          ]
+        },
+        "type": "classBreaks",
+        "field": "maxspeed",
+        "defaultSymbol": {
+          "color": [
+            92,
+            92,
+            92,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "minValue": -9007199254740991,
+        "classBreakInfos": [
+          {
+            "symbol": {
+              "color": {
+                "r": 170,
+                "g": 170,
+                "b": 170,
+                "a": 1
+              },
+              "width": 2,
+              "type": "simplelinesymbol",
+              "style": "solid"
+            },
+            "classMaxValue": 9007199254740991,
+            "minValue": -9007199254740991,
+            "maxValue": 9007199254740991
+          }
+        ],
+        "defaultLabel": "Other"
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Roads/FeatureServer/0",
+      "geometryType": "esriGeometryPolyline",
+      "id": "Gravenhurst_Roads_1990",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Roads/FeatureServer/",
+      "isMapServer": false,
+      "title": "Gravenhurst Roads",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Gravenhurst Roads",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "highway",
+            "label": "highway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes",
+            "label": "lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "lanes_backward",
+            "label": "lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "maxspeed",
+            "label": "maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ref",
+            "label": "ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "surface",
+            "label": "surface",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "turn_lanes_backward",
+            "label": "turn:lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "note",
+            "label": "note",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NHS",
+            "label": "NHS",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bicycle",
+            "label": "bicycle",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "foot",
+            "label": "foot",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "motorroad",
+            "label": "motorroad",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "oneway",
+            "label": "oneway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "sidewalk",
+            "label": "sidewalk",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bridge",
+            "label": "bridge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "layer",
+            "label": "layer",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "turn_lanes_forward",
+            "label": "turn:lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "direction",
+            "label": "direction",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "geobase_acquisitionTechnique",
+            "label": "geobase:acquisitionTechnique",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "history",
+            "label": "history",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "statscan_rbuid",
+            "label": "statscan:rbuid",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "lit",
+            "label": "lit",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_maxspeed",
+            "label": "source:maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "validate_no_name",
+            "label": "validate:no_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "smoothness",
+            "label": "smoothness",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_name",
+            "label": "source:name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "alt_name",
+            "label": "alt_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "fixme",
+            "label": "fixme",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes_forward",
+            "label": "lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "destination_lanes",
+            "label": "destination:lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "destination_ref_lanes",
+            "label": "destination:ref:lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "turn_lanes",
+            "label": "turn:lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_geometry",
+            "label": "source:geometry",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "noname",
+            "label": "noname",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "embankment",
+            "label": "embankment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "Max Speed Limit: <font color='#ff0000'><b>{MAXSPEED}</b> </font><font color='#000000'>km/h</font><br />Road Name: <i><font color='#000000'><b>{NAME}</b></font></i><br />Road Type: <font color='#000000'><b>{HIGHWAY}</b></font><br />Surface Type:<b> <font color='#000000'>{SURFACE}</font></b> <br /># Lanes:<b> </b><font color='#000000'><b>{LANES}<br /> </b>**</font>Note: If Max Speed Limit is blank look to Road Type - motorway, trunk, primary likely has Max Speed Limit of 90-100 km/h; secondary and tertiary 60-80 km/h; residential 20-60 km/hr; unclassified may need further research. If Road Type is also blank look to Surface Type with speed limits decreasing from paved-asphalt-unpaved.",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "field": "maxspeed",
+            "valueExpression": null,
+            "stops": [
+              {
+                "value": 20,
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 178,
+                  "a": 1
+                },
+                "label": "< 20"
+              },
+              {
+                "value": 40,
+                "color": {
+                  "r": 254,
+                  "g": 204,
+                  "b": 92,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 60,
+                "color": {
+                  "r": 253,
+                  "g": 141,
+                  "b": 60,
+                  "a": 1
+                },
+                "label": "60"
+              },
+              {
+                "value": 80,
+                "color": {
+                  "r": 240,
+                  "g": 59,
+                  "b": 32,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 100,
+                "color": {
+                  "r": 189,
+                  "g": 0,
+                  "b": 38,
+                  "a": 1
+                },
+                "label": "> 100"
+              }
+            ]
+          }
+        ],
+        "authoringInfo": {
+          "visualVariables": [
+            {
+              "type": "colorInfo",
+              "minSliderValue": 20,
+              "maxSliderValue": 100,
+              "theme": "high-to-low"
+            }
+          ]
+        },
+        "type": "classBreaks",
+        "field": "maxspeed",
+        "defaultSymbol": {
+          "color": [
+            92,
+            92,
+            92,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "minValue": -9007199254740991,
+        "classBreakInfos": [
+          {
+            "symbol": {
+              "color": {
+                "r": 170,
+                "g": 170,
+                "b": 170,
+                "a": 1
+              },
+              "width": 2,
+              "type": "simplelinesymbol",
+              "style": "solid"
+            },
+            "classMaxValue": 9007199254740991,
+            "minValue": -9007199254740991,
+            "maxValue": 9007199254740991
+          }
+        ],
+        "defaultLabel": "Other"
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Roads/FeatureServer/0",
+      "geometryType": "esriGeometryPolyline",
+      "id": "Huntsville_Roads_5686",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Roads/FeatureServer/",
+      "isMapServer": false,
+      "title": "Huntsville Roads",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Huntsville Roads",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "highway",
+            "label": "highway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ref",
+            "label": "ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "surface",
+            "label": "surface",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes",
+            "label": "lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "service",
+            "label": "service",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NHS",
+            "label": "NHS",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bicycle",
+            "label": "bicycle",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "foot",
+            "label": "foot",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "maxspeed",
+            "label": "maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "motorroad",
+            "label": "motorroad",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "oneway",
+            "label": "oneway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "sidewalk",
+            "label": "sidewalk",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bridge",
+            "label": "bridge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "layer",
+            "label": "layer",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "geobase_acquisitionTechnique",
+            "label": "geobase:acquisitionTechnique",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution_name",
+            "label": "attribution_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "statscan_rbuid",
+            "label": "statscan:rbuid",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "hgv",
+            "label": "hgv",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "alt_name",
+            "label": "alt_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes_backward",
+            "label": "lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "lanes_forward",
+            "label": "lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "turn_lanes_forward",
+            "label": "turn:lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_name",
+            "label": "source:name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lit",
+            "label": "lit",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "turn_lanes_backward",
+            "label": "turn:lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "cutting",
+            "label": "cutting",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "cycleway_left",
+            "label": "cycleway:left",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "cycleway_right",
+            "label": "cycleway:right",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "embankment",
+            "label": "embankment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ford",
+            "label": "ford",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "tunnel",
+            "label": "tunnel",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "turn_lanes",
+            "label": "turn:lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "maxspeed_advisory",
+            "label": "maxspeed:advisory",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "Max Speed Limit: <font color='#ff0000'><b>{MAXSPEED}</b> </font><font color='#000000'>km/h</font><br />Road Name: <i><font color='#000000'><b>{NAME}</b></font></i><br />Road Type: <font color='#000000'><b>{HIGHWAY}</b></font><br />Surface Type:<b> <font color='#000000'>{SURFACE}</font></b> <br /># Lanes:<b> </b><font color='#000000'><b>{LANES}<br /> </b>**</font>Note: If Max Speed Limit is blank look to Road Type - motorway, trunk, primary likely has Max Speed Limit of 90-100 km/h; secondary and tertiary 60-80 km/h; residential 20-60 km/hr; unclassified may need further research. If Road Type is also blank look to Surface Type with speed limits decreasing from paved-asphalt-unpaved.",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "field": "maxspeed",
+            "valueExpression": null,
+            "stops": [
+              {
+                "value": 20,
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 178,
+                  "a": 1
+                },
+                "label": "< 20"
+              },
+              {
+                "value": 40,
+                "color": {
+                  "r": 254,
+                  "g": 204,
+                  "b": 92,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 60,
+                "color": {
+                  "r": 253,
+                  "g": 141,
+                  "b": 60,
+                  "a": 1
+                },
+                "label": "60"
+              },
+              {
+                "value": 80,
+                "color": {
+                  "r": 240,
+                  "g": 59,
+                  "b": 32,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 100,
+                "color": {
+                  "r": 189,
+                  "g": 0,
+                  "b": 38,
+                  "a": 1
+                },
+                "label": "> 100"
+              }
+            ]
+          }
+        ],
+        "authoringInfo": {
+          "visualVariables": [
+            {
+              "type": "colorInfo",
+              "minSliderValue": 20,
+              "maxSliderValue": 100,
+              "theme": "high-to-low"
+            }
+          ]
+        },
+        "type": "classBreaks",
+        "field": "maxspeed",
+        "defaultSymbol": {
+          "color": [
+            92,
+            92,
+            92,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "minValue": -9007199254740991,
+        "classBreakInfos": [
+          {
+            "symbol": {
+              "color": {
+                "r": 170,
+                "g": 170,
+                "b": 170,
+                "a": 1
+              },
+              "width": 2,
+              "type": "simplelinesymbol",
+              "style": "solid"
+            },
+            "classMaxValue": 9007199254740991,
+            "minValue": -9007199254740991,
+            "maxValue": 9007199254740991
+          }
+        ],
+        "defaultLabel": "Other"
+      },
+      "definitionExpression": ""
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Roads/FeatureServer/0",
+      "geometryType": "esriGeometryPolyline",
+      "id": "Lake_of_Bays_Roads_4472",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Roads/FeatureServer/",
+      "isMapServer": false,
+      "title": "Lake of Bays Roads",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Lake of Bays Township Roads",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "highway",
+            "label": "highway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes",
+            "label": "lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ref",
+            "label": "ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "surface",
+            "label": "surface",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "geobase_acquisitionTechnique",
+            "label": "geobase:acquisitionTechnique",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution_name",
+            "label": "attribution_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "statscan_rbuid",
+            "label": "statscan:rbuid",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "access",
+            "label": "access",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bridge",
+            "label": "bridge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "layer",
+            "label": "layer",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "maxspeed",
+            "label": "maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "oneway",
+            "label": "oneway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "religion",
+            "label": "religion",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "sidewalk",
+            "label": "sidewalk",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "validate_no_name",
+            "label": "validate:no_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_maxspeed",
+            "label": "source:maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "note",
+            "label": "note",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "noname",
+            "label": "noname",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes_backward",
+            "label": "lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "turn_lanes_backward",
+            "label": "turn:lanes:backward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "Max Speed Limit: <font color='#ff0000'><b>{MAXSPEED}</b> </font><font color='#000000'>km/h</font><br />Road Name: <i><font color='#000000'><b>{NAME}</b></font></i><br />Road Type: <font color='#000000'><b>{HIGHWAY}</b></font><br />Surface Type:<b> <font color='#000000'>{SURFACE}</font></b> <br /># Lanes:<b> </b><font color='#000000'><b>{LANES}<br /> </b>**</font>Note: If Max Speed Limit is blank look to Road Type - motorway, trunk, primary likely has Max Speed Limit of 90-100 km/h; secondary and tertiary 60-80 km/h; residential 20-60 km/hr; unclassified may need further research. If Road Type is also blank look to Surface Type with speed limits decreasing from paved-asphalt-unpaved.",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "field": "maxspeed",
+            "valueExpression": null,
+            "stops": [
+              {
+                "value": 20,
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 178,
+                  "a": 1
+                },
+                "label": "< 20"
+              },
+              {
+                "value": 40,
+                "color": {
+                  "r": 254,
+                  "g": 204,
+                  "b": 92,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 60,
+                "color": {
+                  "r": 253,
+                  "g": 141,
+                  "b": 60,
+                  "a": 1
+                },
+                "label": "60"
+              },
+              {
+                "value": 80,
+                "color": {
+                  "r": 240,
+                  "g": 59,
+                  "b": 32,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 100,
+                "color": {
+                  "r": 189,
+                  "g": 0,
+                  "b": 38,
+                  "a": 1
+                },
+                "label": "> 100"
+              }
+            ]
+          }
+        ],
+        "authoringInfo": {
+          "visualVariables": [
+            {
+              "type": "colorInfo",
+              "minSliderValue": 20,
+              "maxSliderValue": 100,
+              "theme": "high-to-low"
+            }
+          ]
+        },
+        "type": "classBreaks",
+        "field": "maxspeed",
+        "defaultSymbol": {
+          "color": [
+            92,
+            92,
+            92,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "minValue": -9007199254740991,
+        "classBreakInfos": [
+          {
+            "symbol": {
+              "color": {
+                "r": 170,
+                "g": 170,
+                "b": 170,
+                "a": 1
+              },
+              "width": 2,
+              "type": "simplelinesymbol",
+              "style": "solid"
+            },
+            "classMaxValue": 9007199254740991,
+            "minValue": -9007199254740991,
+            "maxValue": 9007199254740991
+          }
+        ],
+        "defaultLabel": "Other"
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Roads/FeatureServer/0",
+      "geometryType": "esriGeometryPolyline",
+      "id": "Muskoka_Lakes_Roads_7382",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Roads/FeatureServer/",
+      "isMapServer": false,
+      "title": "Muskoka Lakes Roads",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Muskoka Lakes Roads",
+        "fieldInfos": [
+          {
+            "fieldName": "F_id",
+            "label": "@id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "highway",
+            "label": "highway",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes",
+            "label": "lanes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "maxspeed",
+            "label": "maxspeed",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ref",
+            "label": "ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "surface",
+            "label": "surface",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lit",
+            "label": "lit",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "note",
+            "label": "note",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "alt_name",
+            "label": "alt_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "old_name",
+            "label": "old_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "old_ref",
+            "label": "old_ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "unsigned_ref",
+            "label": "unsigned_ref",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source_name",
+            "label": "source:name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution",
+            "label": "attribution",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attribution_name",
+            "label": "attribution_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "geobase_acquisitionTechnique",
+            "label": "geobase:acquisitionTechnique",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "statscan_rbuid",
+            "label": "statscan:rbuid",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "sidewalk",
+            "label": "sidewalk",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "place",
+            "label": "place",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "bridge",
+            "label": "bridge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "layer",
+            "label": "layer",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "bridge_movable",
+            "label": "bridge:movable",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "lanes_forward",
+            "label": "lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "turn_lanes_forward",
+            "label": "turn:lanes:forward",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "maxspeed_conditional",
+            "label": "maxspeed:conditional",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "restriction",
+            "label": "restriction",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": "Max Speed Limit: <font color='#ff0000'><b>{MAXSPEED}</b> </font><font color='#000000'>km/h</font><br />Road Name: <i><font color='#000000'><b>{NAME}</b></font></i><br />Road Type: <font color='#000000'><b>{HIGHWAY}</b></font><br />Surface Type:<b> <font color='#000000'>{SURFACE}</font></b> <br /># Lanes:<b> </b><font color='#000000'><b>{LANES}<br /> </b>**</font>Note: If Max Speed Limit is blank look to Road Type - motorway, trunk, primary likely has Max Speed Limit of 90-100 km/h; secondary and tertiary 60-80 km/h; residential 20-60 km/hr; unclassified may need further research. If Road Type is also blank look to Surface Type with speed limits decreasing from paved-asphalt-unpaved.",
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "visualVariables": [
+          {
+            "type": "colorInfo",
+            "field": "maxspeed",
+            "valueExpression": null,
+            "stops": [
+              {
+                "value": 20,
+                "color": {
+                  "r": 255,
+                  "g": 255,
+                  "b": 178,
+                  "a": 1
+                },
+                "label": "< 20"
+              },
+              {
+                "value": 40,
+                "color": {
+                  "r": 254,
+                  "g": 204,
+                  "b": 92,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 60,
+                "color": {
+                  "r": 253,
+                  "g": 141,
+                  "b": 60,
+                  "a": 1
+                },
+                "label": "60"
+              },
+              {
+                "value": 80,
+                "color": {
+                  "r": 240,
+                  "g": 59,
+                  "b": 32,
+                  "a": 1
+                },
+                "label": null
+              },
+              {
+                "value": 100,
+                "color": {
+                  "r": 189,
+                  "g": 0,
+                  "b": 38,
+                  "a": 1
+                },
+                "label": "> 100"
+              }
+            ]
+          }
+        ],
+        "authoringInfo": {
+          "visualVariables": [
+            {
+              "type": "colorInfo",
+              "minSliderValue": 20,
+              "maxSliderValue": 100,
+              "theme": "high-to-low"
+            }
+          ]
+        },
+        "type": "classBreaks",
+        "field": "maxspeed",
+        "defaultSymbol": {
+          "color": [
+            92,
+            92,
+            92,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "minValue": -9007199254740991,
+        "classBreakInfos": [
+          {
+            "symbol": {
+              "color": {
+                "r": 170,
+                "g": 170,
+                "b": 170,
+                "a": 1
+              },
+              "width": 2,
+              "type": "simplelinesymbol",
+              "style": "solid"
+            },
+            "classMaxValue": 9007199254740991,
+            "minValue": -9007199254740991,
+            "maxValue": 9007199254740991
+          }
+        ],
+        "defaultLabel": "Other"
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": true
+  },
+  "defaultBufferDistance": 1,
+  "maxBufferDistance": 10,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": false,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Miles",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": true,
+  "isGeodesic": false,
+  "showLocationTool": false,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "https://static.arcgis.com/images/Symbols/State-Government/Fish-Spawning-Site.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 18.75,
+      "height": 18.75
+    },
+    "polylineSymbol": {
+      "color": [
+        0,
+        255,
+        255,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        240,
+        243,
+        154,
+        130
+      ],
+      "outline": {
+        "color": [
+          115,
+          140,
+          61,
+          255
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Find address or place",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": [
+      {
+        "layerId": "Bracebridge_Roads_2904",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Roads/FeatureServer/0",
+        "name": "Bracebridge Roads",
+        "filter": {
+          "logicalOperator": "AND",
+          "parts": [],
+          "expr": "1=1"
+        },
+        "icon": null,
+        "enableMapFilter": true,
+        "autoApplyWhenWidgetOpen": false,
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Basic/RedSphere.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "layerId": "Georgian_Bay_Roads_6772",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Roads/FeatureServer/0",
+        "name": "Georgian Bay Roads",
+        "filter": {
+          "logicalOperator": "AND",
+          "parts": [],
+          "expr": "1=1"
+        },
+        "icon": null,
+        "enableMapFilter": true,
+        "autoApplyWhenWidgetOpen": false,
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Basic/OrangeSphere.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "layerId": "Gravenhurst_Roads_1990",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Roads/FeatureServer/0",
+        "name": "Gravenhurst Roads",
+        "filter": {
+          "logicalOperator": "AND",
+          "parts": [],
+          "expr": "1=1"
+        },
+        "icon": null,
+        "enableMapFilter": true,
+        "autoApplyWhenWidgetOpen": false,
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Basic/YellowSphere.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "layerId": "Huntsville_Roads_5686",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Roads/FeatureServer/0",
+        "name": "Huntsville Roads",
+        "filter": {
+          "logicalOperator": "AND",
+          "parts": [],
+          "expr": "1=1"
+        },
+        "icon": null,
+        "enableMapFilter": true,
+        "autoApplyWhenWidgetOpen": false,
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Basic/GreenSphere.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "layerId": "Lake_of_Bays_Roads_4472",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Roads/FeatureServer/0",
+        "name": "Lake of Bays Roads",
+        "filter": {
+          "logicalOperator": "AND",
+          "parts": [],
+          "expr": "1=1"
+        },
+        "icon": null,
+        "enableMapFilter": true,
+        "autoApplyWhenWidgetOpen": false,
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Basic/BlueSphere.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 18,
+          "height": 18
+        }
+      },
+      {
+        "layerId": "Muskoka_Lakes_Roads_7382",
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Roads/FeatureServer/0",
+        "name": "Muskoka Lakes Roads",
+        "filter": {
+          "logicalOperator": "AND",
+          "parts": [],
+          "expr": "1=1"
+        },
+        "icon": null,
+        "enableMapFilter": true,
+        "autoApplyWhenWidgetOpen": false,
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Basic/PurpleSphere.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 18,
+          "height": 18
+        }
+      }
+    ]
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "editorDescription": "<p class=\"MsoNormal\" style=\"margin-bottom:0in;margin-bottom:.0001pt;line-height:\nnormal\"><span style=\"font-family:&quot;Verdana&quot;,sans-serif;color:black;background:\nwhite\">Find the roadways around a wetland by searching for an address of a\nwetland or locating one on the map.&nbsp;</span></p>",
+  "noFeatureFoundMessage": "<p class=\"MsoNormal\" style=\"margin-bottom:0in;margin-bottom:.0001pt;line-height:\nnormal\"><span style=\"font-family:&quot;Verdana&quot;,sans-serif;color:black;background:\nwhite\">Looks like this wetland might be safe from roadway incidents and roadway\nnoise for your species monitoring.</span><o:p></o:p></p>",
+  "showCurrentLocationTool": true,
+  "enableDirection": false,
+  "bufferInputOption": "sliderAndTextbox"
+}

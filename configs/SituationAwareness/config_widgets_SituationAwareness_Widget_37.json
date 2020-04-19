@@ -1,0 +1,278 @@
+{
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "enableRouting": true,
+  "bufferRange": {
+    "minimum": 0.5,
+    "_default": 1,
+    "maximum": 30
+  },
+  "distanceUnits": "kilometers",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": 100,
+  "defaultZoomLevel": 13,
+  "tabs": [
+    {
+      "label": "",
+      "type": "proximity",
+      "layerTitle": "Bracebridge Roads",
+      "layers": "Bracebridge_Roads_2904",
+      "advStat": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Bracebridge_Roads/FeatureServer/0",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "Road Name:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "maxspeed",
+              "label": "Speed Limit:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "highway",
+              "label": "Road Typed:",
+              "validLabel": true
+            }
+          ],
+          "tabCount": true
+        },
+        "fieldOrder": [
+          "name",
+          "maxspeed",
+          "highway"
+        ],
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "",
+      "type": "proximity",
+      "layerTitle": "Georgian Bay Roads",
+      "layers": "Georgian_Bay_Roads_6772",
+      "advStat": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Georgian_Bay_Roads/FeatureServer/0",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "Road Name:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "maxspeed",
+              "label": "Speed Limit:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "highway",
+              "label": "Road Type:",
+              "validLabel": true
+            }
+          ],
+          "tabCount": true
+        },
+        "fieldOrder": [
+          "name",
+          "maxspeed",
+          "highway"
+        ],
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "",
+      "type": "proximity",
+      "layerTitle": "Gravenhurst Roads",
+      "layers": "Gravenhurst_Roads_1990",
+      "advStat": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Gravenhurst_Roads/FeatureServer/0",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "Road Name:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "maxspeed",
+              "label": "Speed Limit:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "highway",
+              "label": "Road Type:",
+              "validLabel": true
+            }
+          ],
+          "tabCount": true
+        },
+        "fieldOrder": [
+          "name",
+          "maxspeed",
+          "highway"
+        ],
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "",
+      "type": "proximity",
+      "layerTitle": "Huntsville Roads",
+      "layers": "Huntsville_Roads_5686",
+      "advStat": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Huntsville_Roads/FeatureServer/0",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "Road Name:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "maxspeed",
+              "label": "Speed Limit:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "highway",
+              "label": "Road Type:",
+              "validLabel": true
+            }
+          ],
+          "tabCount": true
+        },
+        "fieldOrder": [
+          "name",
+          "maxspeed",
+          "highway"
+        ],
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "",
+      "type": "proximity",
+      "layerTitle": "Lake of Bays Roads",
+      "layers": "Lake_of_Bays_Roads_4472",
+      "advStat": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Lake_of_Bays_Roads/FeatureServer/0",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "Road Name:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "maxspeed",
+              "label": "Speed Limit:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "highway",
+              "label": "Road Type:",
+              "validLabel": true
+            }
+          ],
+          "tabCount": true
+        },
+        "fieldOrder": [
+          "name",
+          "maxspeed",
+          "highway"
+        ],
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "",
+      "type": "proximity",
+      "layerTitle": "Muskoka Lakes Roads",
+      "layers": "Muskoka_Lakes_Roads_7382",
+      "advStat": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Muskoka_Lakes_Roads/FeatureServer/0",
+        "stats": {
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "Road Name:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "maxspeed",
+              "label": "Speed Limit:",
+              "validLabel": true
+            },
+            {
+              "value": 0,
+              "expression": "highway",
+              "label": "Road Type:",
+              "validLabel": true
+            }
+          ],
+          "tabCount": true
+        },
+        "fieldOrder": [
+          "name",
+          "maxspeed",
+          "highway"
+        ],
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    }
+  ],
+  "summaryDisplayEnabled": true,
+  "exportFieldsOptionForCSV": "allFields",
+  "incidentLabel": "Wetland",
+  "locateIncidentLabel": "Choose a Wetland ",
+  "bufferLabel": "Buffer Distance",
+  "disableVisibilityManagement": false,
+  "saveEnabled": false,
+  "savePoints": false,
+  "drawGeodesic": false,
+  "saveLines": false,
+  "savePolys": false,
+  "selectionColor": "#00ffff",
+  "snapshotEnabled": false,
+  "reportEnabled": false,
+  "reportSettings": {
+    "printTaskURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "footnote": "",
+    "logo": "${appPath}/widgets/SituationAwareness/images/defaultLogo.png",
+    "textColor": "#0f96cc"
+  }
+}
